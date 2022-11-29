@@ -1,0 +1,8 @@
+POSTGRESQL:
+
+SELECT table_name, column_name, data_type FROM INFORMATION_SCHEMA.COLUMNS where table_name = {nazwa_tabeli}
+
+
+MYSQL:
+
+show create table {nazwa_tabeli}
